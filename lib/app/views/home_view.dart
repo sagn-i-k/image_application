@@ -77,8 +77,13 @@ class HomeView extends StatelessWidget {
                         itemCount: controller.images.length,
                         itemBuilder: (context, index) {
                           final image = controller.images[index];
-                          return CustomImageItem(
-                            imageUrl: image.downloadUrl,
+                          return InkWell(
+                            onTap: (){
+                              //Get.back()
+                            },
+                            child: CustomImageItem(
+                              imageUrl: image.downloadUrl,
+                            ),
                           );
                         },
                       ),

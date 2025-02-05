@@ -8,6 +8,7 @@ import 'package:image_application/app/utils/api_manager.dart';
 import '../models/image_model.dart';
 
 class ImageController extends GetxController {
+
   var images = <ImageModel>[].obs;
   var isLoading = false.obs;
   var currentPage = 1;

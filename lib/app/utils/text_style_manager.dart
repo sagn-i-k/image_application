@@ -11,7 +11,6 @@ class TextStyleManager {
     fontWeight: FontWeight.w800,
   );
 
-
   static final TextStyle mainTextStyle = GoogleFonts.majorMonoDisplay(
     fontSize: 14.sp,
     color: ColorManager.black,
