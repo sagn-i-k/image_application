@@ -24,7 +24,7 @@ class FullImageView extends StatelessWidget {
             top: 40.h,
             left: 16.w,
             child: IconButton(
-              icon: Icon(Icons.close, color: ColorManager.appBarColor),
+              icon: Icon(Icons.arrow_back_ios, color: ColorManager.appBarColor),
               onPressed: () => Navigator.pop(context),
             ),
           ),

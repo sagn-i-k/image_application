@@ -3,6 +3,6 @@ class StringManager{
 
   static const String headingText="Photo Gallery";
   static const String mainText="All Your Moments in One Place";
-  static const String loadImgText="Loading your photos";
+  static const String loadImgText="Loading more of your photos";
 
 }

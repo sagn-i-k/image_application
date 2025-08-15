@@ -3,15 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:image_application/app/components/image_blocks.dart';
-import 'package:image_application/app/utils/api_manager.dart';
-import 'package:image_application/app/utils/asset_manager.dart';
 import 'package:image_application/app/utils/color_manager.dart';
 import 'package:image_application/app/utils/string_manager.dart';
 import 'package:image_application/app/utils/text_style_manager.dart';
+import '../components/loading_section.dart';
 import '../controllers/home_controller.dart';
-import 'full_image_view.dart';
 
 
 class HomeView extends StatelessWidget {

@@ -5,34 +5,10 @@ import '../utils/string_manager.dart';
 import '../utils/text_style_manager.dart';
 import '../views/full_image_view.dart';
 import 'package:image_application/app/utils/asset_manager.dart';
-class LoadingSection extends StatelessWidget {
-  final String? message;
 
-  const LoadingSection({
-    super.key,
-    this.message,
-  });
 
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            StringManager.loadImgText,
-            style: TextStyleManager.subTextStyle,
-          ),
-          SizedBox(height: 5.h),
-          CircularProgressIndicator(
-            backgroundColor: ColorManager.appBarColor,
-          ),
-        ],
-      ),
-    );
-  }
-}
+
+
 
 
 class CustomImageItem extends StatelessWidget {
